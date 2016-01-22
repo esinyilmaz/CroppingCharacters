@@ -18,8 +18,10 @@ namespace fs = ::boost::filesystem;
 namespace io = boost::iostreams;
 using namespace std;
 
-boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\AUSCA0100A");
-//boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\AUSCA0100ABoxUpdate\\TrainData");
+//boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\AUSCA0100A");
+//boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\CZEID0200A");
+//boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\CZEID0200A\\TrainData");
+boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\AUSCA0100A\\TrainData");
 
 // Recursively find the location of a file on a given directory 
 void FindFiles(const boost::filesystem::path& directory,
@@ -187,6 +189,8 @@ void takeCharListFromTxtFile(std::string path)
 					break;
 
 				case '\/': tokens[0] = "backslash";
+					break;
+				case '\.': tokens[0] = "dot";
 					break;
 
 
@@ -401,6 +405,7 @@ void 	takeCharListFromBoxFile(std::string path)
 	static int count = 0;
 	//open the file and  read the char positions
 
+	std::cout << "start count" << count << std::endl;
 	if (boost::filesystem::file_size(path))
 	{
 		io::stream<io::mapped_file_source> str(path);
@@ -414,7 +419,7 @@ void 	takeCharListFromBoxFile(std::string path)
 
 		cv::Mat myBinImg = cv::imread(pathBinImg);
 
-	
+
 		for (string name; str >> name;)
 		{
 			float X1 = 0;
@@ -488,7 +493,7 @@ void 	takeCharListFromBoxFile(std::string path)
 			try
 			{
 				croppedBinImage = myBinImg(myROI);
-		
+
 			}
 			catch (...)
 			{
@@ -512,44 +517,78 @@ void 	takeCharListFromBoxFile(std::string path)
 
 			if (!(boost::filesystem::exists(dir)))
 			{
-				std::cout << "Doesn't Exists" << dir << std::endl;
+				//std::cout << "Doesn't Exists" << dir << std::endl;
+				boost::filesystem::create_directory(dir);
+				//if (boost::filesystem::create_directory(dir))
+					//std::cout << "....Successfully Created !" << std::endl;
+			}
+			switch (name.c_str()[0])
+			{
+			case '\\': name = "slash";
+				break;
+			case '\*': name = "star";
+				break;
 
-				if (boost::filesystem::create_directory(dir))
-					std::cout << "....Successfully Created !" << std::endl;
+			case '\?': name = "question";
+				break;
+
+			case '\:': name = "dotdot";
+				break;
+
+			case '\"': name = "upper";
+				break;
+
+			case '\<': name = "small";
+				break;
+
+			case '\>': name = "bigger";
+				break;
+
+			case '\|': name = "or";
+				break;
+
+			case '\/': name = "backslash";
+				break;
+			case '\.': name = "dot";
+				break;
+
+
+			default:
+				break;
 			}
 			cropBinImgPath = cropBinImgPath + name + "\\";
 			boost::filesystem::path dir2(cropBinImgPath);
 
 			if (!(boost::filesystem::exists(dir2)))
 			{
-				std::cout << "Doesn't Exists" << dir2 << std::endl;
-
-				if (boost::filesystem::create_directory(dir2))
-					std::cout << "....Successfully Created !" << std::endl;
+				//std::cout << "Doesn't Exists" << dir2 << std::endl;
+				boost::filesystem::create_directory(dir2);
+				/*if (boost::filesystem::create_directory(dir2))
+					std::cout << "....Successfully Created !" << std::endl;*/
 			}
 			cropBinImgPath = cropBinImgPath + scount + ".jpg";
 			cv::imwrite(cropBinImgPath, croppedBinImage);
 
 		}
 	}
+	std::cout <<"end count" << count << std::endl;
 }
 
 int main()
 {
 
 	std::vector<boost::filesystem::path> ret;
-	//boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\CZEID0200A");
 
-	
-	FindFiles(SearchDir, ret, "CharPlaces.txt");
-	for (auto i = ret.begin(); i != ret.end(); i++)
-	{
-		
-		std::cout << i->string();
-		// start to take character places
-		takeCharListFromTxtFile(i->string());
-		contructBoxFileFromTxtFile(i->string());
-	}
+
+	//FindFiles(SearchDir, ret, "CharPlaces.txt");
+	//for (auto i = ret.begin(); i != ret.end(); i++)
+	//{
+
+	//	std::cout << i->string();
+	//	// start to take character places
+	//	takeCharListFromTxtFile(i->string());
+	//	contructBoxFileFromTxtFile(i->string());
+	//}
 
 
 	//Takes all characters after box update
@@ -557,7 +596,7 @@ int main()
 	for (auto i = ret.begin(); i != ret.end(); i++)
 	{
 
-		std::cout << i->string();
+		std::cout << i->filename() << std::endl;
 		// start to take character places
 		takeCharListFromBoxFile(i->string());
 	}
