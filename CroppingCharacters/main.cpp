@@ -522,6 +522,8 @@ void 	takeCharListFromBoxFile(std::string path)
 				//if (boost::filesystem::create_directory(dir))
 					//std::cout << "....Successfully Created !" << std::endl;
 			}
+
+
 			switch (name.c_str()[0])
 			{
 			case '\\': name = "slash";
