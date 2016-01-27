@@ -21,7 +21,11 @@ using namespace std;
 //boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\AUSCA0100A");
 //boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\CZEID0200A");
 //boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\CZEID0200A\\TrainData");
-boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\AUSCA0100A\\TrainData");
+//boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\AUSCA0100A\\TrainData");
+boost::filesystem::path SearchDir2("C:\\Users\\e.yilmaz\\Source\\Train Process");
+boost::filesystem::path SearchDir1("C:\\Users\\e.yilmaz\\Source\\Train Document Types");
+
+
 
 // Recursively find the location of a file on a given directory 
 void FindFiles(const boost::filesystem::path& directory,
@@ -244,7 +248,7 @@ void takeCharListFromTxtFile(std::string path)
 			"C:\\Users\\e.yilmaz\\Source\\For Esin - Copy" +
 			path.substr(strlen("C:\\Users\\e.yilmaz\\Source\\For Esin - Copy\\") - 1, 11) + "\\CHARS_BIN\\" ;*/
 
-			string cropBinImgPath = SearchDir.string() + "\\CHARS_BIN\\";
+			string cropBinImgPath = SearchDir1.string() + "\\CHARS_BIN\\";
 
 			boost::filesystem::path dir(cropBinImgPath);
 
@@ -272,7 +276,7 @@ void takeCharListFromTxtFile(std::string path)
 			/*string cropWImgPath =
 			"C:\\Users\\e.yilmaz\\Source\\For Esin - Copy" +
 			path.substr(strlen("C:\\Users\\e.yilmaz\\Source\\For Esin - Copy\\") - 1, 11) + "\\CHARS_WHITE\\";*/
-			string cropWImgPath = SearchDir.string() + "\\CHARS_WHITE\\";
+			string cropWImgPath = SearchDir1.string() + "\\CHARS_WHITE\\";
 
 			boost::filesystem::path dir3(cropWImgPath);
 
@@ -305,8 +309,15 @@ void takeCharListFromTxtFile(std::string path)
 void contructBoxFileFromTxtFile(std::string path)
 {
 	static int count = 0;
+	static string oldPath = SearchDir1.string();
+
 	//open the file and  read the char positions
 
+	if (oldPath != SearchDir1.string())
+	{
+		count = 0;
+		oldPath = SearchDir1.string();
+	}
 	if (boost::filesystem::file_size(path))
 	{
 		io::stream<io::mapped_file_source> str(path);
@@ -327,7 +338,7 @@ void contructBoxFileFromTxtFile(std::string path)
 
 
 			pathBoxImg = std::regex_replace(pathBoxImg, std::regex("CharPlaces.txt"), "eng.SegBinImg.exp") + scount + ".box";*/
-		string trainPath = SearchDir.string() + string("\\TrainData");
+		string trainPath = SearchDir1.string() + string("\\TrainData");
 		pathBinImg2 = trainPath + string("\\eng.SegBinImg.exp") + scount + ".jpg";
 
 
@@ -511,7 +522,7 @@ void 	takeCharListFromBoxFile(std::string path)
 			"C:\\Users\\e.yilmaz\\Source\\For Esin - Copy" +
 			path.substr(strlen("C:\\Users\\e.yilmaz\\Source\\For Esin - Copy\\") - 1, 11) + "\\CHARS_BIN\\" ;*/
 
-			string cropBinImgPath = SearchDir.string() + "\\BOX_CHARS_BIN\\";
+			string cropBinImgPath = SearchDir2.string() + "\\BOX_CHARS_BIN\\";
 
 			boost::filesystem::path dir(cropBinImgPath);
 
@@ -580,27 +591,39 @@ int main()
 {
 
 	std::vector<boost::filesystem::path> ret;
+	int taskId = 1;
+	cout << "Enter the task to do" << endl;
+	cout << "1-generate box file from char places txt" << endl;
+	cout << "2-generate character folders from box file" << endl;
+	cin >> taskId;
 
-
-	//FindFiles(SearchDir, ret, "CharPlaces.txt");
-	//for (auto i = ret.begin(); i != ret.end(); i++)
-	//{
-
-	//	std::cout << i->string();
-	//	// start to take character places
-	//	takeCharListFromTxtFile(i->string());
-	//	contructBoxFileFromTxtFile(i->string());
-	//}
-
-
-	//Takes all characters after box update
-	FindBoxFiles(SearchDir, ret);
-	for (auto i = ret.begin(); i != ret.end(); i++)
+	if (taskId == 1)
 	{
+		FindFiles(SearchDir1, ret, "CharPlaces.txt");
+		for (auto i = ret.begin(); i != ret.end(); i++)
+		{
 
-		std::cout << i->filename() << std::endl;
-		// start to take character places
-		takeCharListFromBoxFile(i->string());
+			// start to take character places
+			SearchDir1 = i->parent_path().parent_path();
+			//takeCharListFromTxtFile(i->string());
+			contructBoxFileFromTxtFile(i->string());
+		}
+	}
+
+	else
+	{
+		//Takes all characters after box update
+		FindBoxFiles(SearchDir2, ret);
+		for (auto i = ret.begin(); i != ret.end(); i++)
+		{
+
+			std::cout << i->filename() << std::endl;
+
+			SearchDir2 = i->parent_path();
+			// start to take character places
+			takeCharListFromBoxFile( i->string());
+		}
+
 	}
 
 	return 0;

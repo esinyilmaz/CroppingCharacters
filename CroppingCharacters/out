@@ -1,150 +1,726 @@
+Enter the task to do
+1-generate box file from char places txt
+2-generate character folders from box file
 "eng.SegBinImg.exp0.box"
 start count0
-end count97
+end count92
 "eng.SegBinImg.exp1.box"
-start count97
-end count181
+start count92
+end count175
 "eng.SegBinImg.exp10.box"
-start count181
-end count271
+start count175
+end count263
 "eng.SegBinImg.exp11.box"
-start count271
-end count353
+start count263
+end count342
 "eng.SegBinImg.exp12.box"
-start count353
-end count440
+start count342
+end count426
 "eng.SegBinImg.exp13.box"
-start count440
-end count541
+start count426
+end count510
 "eng.SegBinImg.exp14.box"
-start count541
-end count635
+start count510
+end count602
 "eng.SegBinImg.exp15.box"
-start count635
-end count721
+start count602
+end count684
 "eng.SegBinImg.exp16.box"
-start count721
-end count813
+start count684
+end count775
 "eng.SegBinImg.exp17.box"
-start count813
-end count904
+start count775
+end count863
 "eng.SegBinImg.exp18.box"
-start count904
-end count975
+start count863
+end count930
 "eng.SegBinImg.exp19.box"
-start count975
-end count1064
+start count930
+end count1018
 "eng.SegBinImg.exp2.box"
-start count1064
-end count1147
+start count1018
+end count1098
 "eng.SegBinImg.exp20.box"
-start count1147
-end count1234
+start count1098
+end count1184
 "eng.SegBinImg.exp21.box"
-start count1234
-end count1321
+start count1184
+end count1270
 "eng.SegBinImg.exp22.box"
-start count1321
-end count1414
+start count1270
+end count1361
 "eng.SegBinImg.exp23.box"
-start count1414
-end count1500
+start count1361
+end count1447
 "eng.SegBinImg.exp24.box"
-start count1500
-end count1598
+start count1447
+end count1535
 "eng.SegBinImg.exp25.box"
-start count1598
-end count1694
+start count1535
+end count1620
 "eng.SegBinImg.exp26.box"
-start count1694
-end count1801
+start count1620
+end count1716
 "eng.SegBinImg.exp27.box"
-start count1801
-end count1891
+start count1716
+end count1802
 "eng.SegBinImg.exp28.box"
-start count1891
-end count1972
+start count1802
+end count1879
 "eng.SegBinImg.exp29.box"
-start count1972
-end count2068
+start count1879
+end count1961
 "eng.SegBinImg.exp3.box"
-start count2068
-end count2159
+start count1961
+end count2052
 "eng.SegBinImg.exp30.box"
-start count2159
-end count2248
+start count2052
+end count2135
 "eng.SegBinImg.exp31.box"
-start count2248
-end count2345
+start count2135
+end count2231
 "eng.SegBinImg.exp32.box"
-start count2345
-end count2446
+start count2231
+end count2318
 "eng.SegBinImg.exp33.box"
-start count2446
-end count2534
+start count2318
+end count2405
 "eng.SegBinImg.exp34.box"
-start count2534
-end count2625
+start count2405
+end count2485
 "eng.SegBinImg.exp35.box"
-start count2625
-end count2729
+start count2485
+end count2579
 "eng.SegBinImg.exp36.box"
-start count2729
-end count2819
+start count2579
+end count2667
 "eng.SegBinImg.exp37.box"
-start count2819
-end count2900
+start count2667
+end count2736
 "eng.SegBinImg.exp38.box"
-start count2900
-end count2980
+start count2736
+end count2815
 "eng.SegBinImg.exp39.box"
-start count2980
-end count3082
+start count2815
+end count2915
 "eng.SegBinImg.exp4.box"
-start count3082
-end count3161
+start count2915
+end count2991
 "eng.SegBinImg.exp40.box"
-start count3161
-end count3256
+start count2991
+end count3085
 "eng.SegBinImg.exp41.box"
-start count3256
-end count3363
+start count3085
+end count3183
 "eng.SegBinImg.exp42.box"
-start count3363
-end count3457
+start count3183
+end count3276
 "eng.SegBinImg.exp43.box"
-start count3457
-end count3545
+start count3276
+end count3362
 "eng.SegBinImg.exp44.box"
-start count3545
-end count3631
+start count3362
+end count3447
 "eng.SegBinImg.exp45.box"
-start count3631
-end count3717
+start count3447
+end count3529
 "eng.SegBinImg.exp46.box"
-start count3717
-end count3812
+start count3529
+end count3618
 "eng.SegBinImg.exp47.box"
-start count3812
-end count3894
+start count3618
+end count3700
 "eng.SegBinImg.exp48.box"
-start count3894
-end count3985
+start count3700
+end count3788
 "eng.SegBinImg.exp49.box"
-start count3985
-end count4074
+start count3788
+end count3877
 "eng.SegBinImg.exp5.box"
-start count4074
-end count4154
+start count3877
+end count3956
 "eng.SegBinImg.exp6.box"
-start count4154
-end count4246
+start count3956
+end count4038
 "eng.SegBinImg.exp7.box"
-start count4246
-end count4330
+start count4038
+end count4119
 "eng.SegBinImg.exp8.box"
-start count4330
-end count4418
+start count4119
+end count4204
 "eng.SegBinImg.exp9.box"
-start count4418
-end count4507
+start count4204
+end count4290
+"eng.SegBinImg.exp0.box"
+start count4290
+end count4360
+"eng.SegBinImg.exp1.box"
+start count4360
+end count4404
+"eng.SegBinImg.exp10.box"
+start count4404
+end count4459
+"eng.SegBinImg.exp11.box"
+start count4459
+end count4530
+"eng.SegBinImg.exp12.box"
+start count4530
+end count4594
+"eng.SegBinImg.exp13.box"
+start count4594
+end count4641
+"eng.SegBinImg.exp14.box"
+start count4641
+end count4707
+"eng.SegBinImg.exp15.box"
+start count4707
+end count4783
+"eng.SegBinImg.exp16.box"
+start count4783
+end count4845
+"eng.SegBinImg.exp17.box"
+start count4845
+end count4911
+"eng.SegBinImg.exp18.box"
+start count4911
+end count4979
+"eng.SegBinImg.exp19.box"
+start count4979
+end count5043
+"eng.SegBinImg.exp2.box"
+start count5043
+end count5112
+"eng.SegBinImg.exp20.box"
+start count5112
+end count5180
+"eng.SegBinImg.exp21.box"
+start count5180
+end count5250
+"eng.SegBinImg.exp22.box"
+start count5250
+end count5315
+"eng.SegBinImg.exp23.box"
+start count5315
+end count5382
+"eng.SegBinImg.exp3.box"
+start count5382
+end count5450
+"eng.SegBinImg.exp4.box"
+start count5450
+end count5523
+"eng.SegBinImg.exp5.box"
+start count5523
+end count5588
+"eng.SegBinImg.exp6.box"
+start count5588
+end count5663
+"eng.SegBinImg.exp7.box"
+start count5663
+end count5735
+"eng.SegBinImg.exp8.box"
+start count5735
+end count5793
+"eng.SegBinImg.exp9.box"
+start count5793
+end count5854
+"eng.SegBinImg.exp0.box"
+start count5854
+end count5921
+"eng.SegBinImg.exp1.box"
+start count5921
+end count5988
+"eng.SegBinImg.exp10.box"
+start count5988
+end count6058
+"eng.SegBinImg.exp11.box"
+start count6058
+end count6129
+"eng.SegBinImg.exp12.box"
+start count6129
+end count6204
+"eng.SegBinImg.exp13.box"
+start count6204
+end count6283
+"eng.SegBinImg.exp14.box"
+start count6283
+end count6352
+"eng.SegBinImg.exp15.box"
+start count6352
+end count6418
+"eng.SegBinImg.exp16.box"
+start count6418
+end count6490
+"eng.SegBinImg.exp17.box"
+start count6490
+end count6557
+"eng.SegBinImg.exp18.box"
+start count6557
+end count6626
+"eng.SegBinImg.exp19.box"
+start count6626
+end count6712
+"eng.SegBinImg.exp2.box"
+start count6712
+end count6779
+"eng.SegBinImg.exp20.box"
+start count6779
+end count6849
+"eng.SegBinImg.exp21.box"
+start count6849
+end count6926
+"eng.SegBinImg.exp22.box"
+start count6926
+end count7016
+"eng.SegBinImg.exp23.box"
+start count7016
+end count7092
+"eng.SegBinImg.exp24.box"
+start count7092
+end count7164
+"eng.SegBinImg.exp25.box"
+start count7164
+end count7243
+"eng.SegBinImg.exp26.box"
+start count7243
+end count7322
+"eng.SegBinImg.exp27.box"
+start count7322
+end count7392
+"eng.SegBinImg.exp28.box"
+start count7392
+end count7464
+"eng.SegBinImg.exp29.box"
+start count7464
+end count7526
+"eng.SegBinImg.exp3.box"
+start count7526
+end count7605
+"eng.SegBinImg.exp30.box"
+start count7605
+end count7674
+"eng.SegBinImg.exp31.box"
+start count7674
+end count7750
+"eng.SegBinImg.exp32.box"
+start count7750
+end count7820
+"eng.SegBinImg.exp33.box"
+start count7820
+end count7895
+"eng.SegBinImg.exp34.box"
+start count7895
+end count7963
+"eng.SegBinImg.exp35.box"
+start count7963
+end count8045
+"eng.SegBinImg.exp36.box"
+start count8045
+end count8114
+"eng.SegBinImg.exp37.box"
+start count8114
+end count8178
+"eng.SegBinImg.exp38.box"
+start count8178
+end count8248
+"eng.SegBinImg.exp39.box"
+start count8248
+end count8327
+"eng.SegBinImg.exp4.box"
+start count8327
+end count8395
+"eng.SegBinImg.exp40.box"
+start count8395
+end count8458
+"eng.SegBinImg.exp41.box"
+start count8458
+end count8526
+"eng.SegBinImg.exp42.box"
+start count8526
+end count8602
+"eng.SegBinImg.exp43.box"
+start count8602
+end count8682
+"eng.SegBinImg.exp44.box"
+start count8682
+end count8754
+"eng.SegBinImg.exp45.box"
+start count8754
+end count8828
+"eng.SegBinImg.exp46.box"
+start count8828
+end count8899
+"eng.SegBinImg.exp47.box"
+start count8899
+end count8972
+"eng.SegBinImg.exp48.box"
+start count8972
+end count9040
+"eng.SegBinImg.exp49.box"
+start count9040
+end count9118
+"eng.SegBinImg.exp5.box"
+start count9118
+end count9181
+"eng.SegBinImg.exp6.box"
+start count9181
+end count9254
+"eng.SegBinImg.exp7.box"
+start count9254
+end count9320
+"eng.SegBinImg.exp8.box"
+start count9320
+end count9387
+"eng.SegBinImg.exp9.box"
+start count9387
+end count9466
+"eng.SegBinImg.exp0.box"
+start count9466
+end count9588
+"eng.SegBinImg.exp1.box"
+start count9588
+end count9712
+"eng.SegBinImg.exp10.box"
+start count9712
+end count9828
+"eng.SegBinImg.exp11.box"
+start count9828
+end count9951
+"eng.SegBinImg.exp12.box"
+start count9951
+end count10093
+"eng.SegBinImg.exp13.box"
+start count10093
+end count10219
+"eng.SegBinImg.exp14.box"
+start count10219
+end count10343
+"eng.SegBinImg.exp15.box"
+start count10343
+end count10467
+"eng.SegBinImg.exp16.box"
+start count10467
+end count10580
+"eng.SegBinImg.exp17.box"
+start count10580
+end count10709
+"eng.SegBinImg.exp18.box"
+start count10709
+end count10828
+"eng.SegBinImg.exp19.box"
+start count10828
+end count10956
+"eng.SegBinImg.exp2.box"
+start count10956
+end count11087
+"eng.SegBinImg.exp20.box"
+start count11087
+end count11202
+"eng.SegBinImg.exp21.box"
+start count11202
+end count11339
+"eng.SegBinImg.exp22.box"
+start count11339
+end count11454
+"eng.SegBinImg.exp23.box"
+start count11454
+end count11574
+"eng.SegBinImg.exp3.box"
+start count11574
+end count11689
+"eng.SegBinImg.exp4.box"
+start count11689
+end count11800
+"eng.SegBinImg.exp5.box"
+start count11800
+end count11923
+"eng.SegBinImg.exp6.box"
+start count11923
+end count12054
+"eng.SegBinImg.exp7.box"
+start count12054
+end count12177
+"eng.SegBinImg.exp8.box"
+start count12177
+end count12296
+"eng.SegBinImg.exp9.box"
+start count12296
+end count12406
+"eng.SegBinImg.exp0.box"
+start count12406
+end count12524
+"eng.SegBinImg.exp1.box"
+start count12524
+end count12638
+"eng.SegBinImg.exp10.box"
+start count12638
+end count12749
+"eng.SegBinImg.exp11.box"
+start count12749
+end count12867
+"eng.SegBinImg.exp12.box"
+start count12867
+end count12991
+"eng.SegBinImg.exp13.box"
+start count12991
+end count13116
+"eng.SegBinImg.exp14.box"
+start count13116
+end count13225
+"eng.SegBinImg.exp15.box"
+start count13225
+end count13333
+"eng.SegBinImg.exp16.box"
+start count13333
+end count13461
+"eng.SegBinImg.exp17.box"
+start count13461
+end count13587
+"eng.SegBinImg.exp18.box"
+start count13587
+end count13712
+"eng.SegBinImg.exp19.box"
+start count13712
+end count13818
+"eng.SegBinImg.exp2.box"
+start count13818
+end count13923
+"eng.SegBinImg.exp3.box"
+start count13923
+end count14038
+"eng.SegBinImg.exp4.box"
+start count14038
+end count14146
+"eng.SegBinImg.exp5.box"
+start count14146
+end count14191
+"eng.SegBinImg.exp6.box"
+start count14191
+end count14300
+"eng.SegBinImg.exp7.box"
+start count14300
+end count14442
+"eng.SegBinImg.exp8.box"
+start count14442
+end count14565
+"eng.SegBinImg.exp9.box"
+start count14565
+end count14665
+"eng.SegBinImg.exp0.box"
+start count14665
+end count14842
+"eng.SegBinImg.exp1.box"
+start count14842
+end count15010
+"eng.SegBinImg.exp10.box"
+start count15010
+end count15185
+"eng.SegBinImg.exp11.box"
+start count15185
+end count15356
+"eng.SegBinImg.exp12.box"
+start count15356
+end count15530
+"eng.SegBinImg.exp13.box"
+start count15530
+end count15709
+"eng.SegBinImg.exp14.box"
+start count15709
+end count15882
+"eng.SegBinImg.exp15.box"
+start count15882
+end count16061
+"eng.SegBinImg.exp16.box"
+start count16061
+end count16234
+"eng.SegBinImg.exp17.box"
+start count16234
+end count16412
+"eng.SegBinImg.exp18.box"
+start count16412
+end count16589
+"eng.SegBinImg.exp19.box"
+start count16589
+end count16765
+"eng.SegBinImg.exp2.box"
+start count16765
+end count16942
+"eng.SegBinImg.exp20.box"
+start count16942
+end count17124
+"eng.SegBinImg.exp21.box"
+start count17124
+end count17297
+"eng.SegBinImg.exp22.box"
+start count17297
+end count17468
+"eng.SegBinImg.exp23.box"
+start count17468
+end count17646
+"eng.SegBinImg.exp3.box"
+start count17646
+end count17823
+"eng.SegBinImg.exp4.box"
+start count17823
+end count18002
+"eng.SegBinImg.exp5.box"
+start count18002
+end count18129
+"eng.SegBinImg.exp6.box"
+start count18129
+end count18300
+"eng.SegBinImg.exp7.box"
+start count18300
+end count18472
+"eng.SegBinImg.exp8.box"
+start count18472
+end count18644
+"eng.SegBinImg.exp9.box"
+start count18644
+end count18812
+"eng.SegBinImg.exp0.box"
+start count18812
+end count18985
+"eng.SegBinImg.exp1.box"
+start count18985
+end count19156
+"eng.SegBinImg.exp10.box"
+start count19156
+end count19337
+"eng.SegBinImg.exp11.box"
+start count19337
+end count19510
+"eng.SegBinImg.exp12.box"
+start count19510
+end count19680
+"eng.SegBinImg.exp13.box"
+start count19680
+end count19867
+"eng.SegBinImg.exp14.box"
+start count19867
+end count20044
+"eng.SegBinImg.exp15.box"
+start count20044
+end count20216
+"eng.SegBinImg.exp16.box"
+start count20216
+end count20391
+"eng.SegBinImg.exp17.box"
+start count20391
+end count20564
+"eng.SegBinImg.exp18.box"
+start count20564
+end count20747
+"eng.SegBinImg.exp19.box"
+start count20747
+end count20930
+"eng.SegBinImg.exp2.box"
+start count20930
+end count21101
+"eng.SegBinImg.exp20.box"
+start count21101
+end count21274
+"eng.SegBinImg.exp21.box"
+start count21274
+end count21448
+"eng.SegBinImg.exp22.box"
+start count21448
+end count21618
+"eng.SegBinImg.exp23.box"
+start count21618
+end count21799
+"eng.SegBinImg.exp3.box"
+start count21799
+end count21980
+"eng.SegBinImg.exp4.box"
+start count21980
+end count22157
+"eng.SegBinImg.exp5.box"
+start count22157
+end count22331
+"eng.SegBinImg.exp6.box"
+start count22331
+end count22513
+"eng.SegBinImg.exp7.box"
+start count22513
+end count22684
+"eng.SegBinImg.exp8.box"
+start count22684
+end count22859
+"eng.SegBinImg.exp9.box"
+start count22859
+end count23040
+"eng.SegBinImg.exp0.box"
+start count23040
+end count23231
+"eng.SegBinImg.exp1.box"
+start count23231
+end count23433
+"eng.SegBinImg.exp2.box"
+start count23433
+end count23632
+"eng.SegBinImg.exp3.box"
+start count23632
+end count23835
+"eng.SegBinImg.exp4.box"
+start count23835
+end count24034
+"eng.SegBinImg.exp5.box"
+start count24034
+end count24212
+"eng.SegBinImg.exp6.box"
+start count24212
+end count24407
+"eng.SegBinImg.exp0.box"
+start count24407
+end count24604
+"eng.SegBinImg.exp1.box"
+start count24604
+end count24812
+"eng.SegBinImg.exp10.box"
+start count24812
+end count25022
+"eng.SegBinImg.exp11.box"
+start count25022
+end count25230
+"eng.SegBinImg.exp12.box"
+start count25230
+end count25440
+"eng.SegBinImg.exp13.box"
+start count25440
+end count25646
+"eng.SegBinImg.exp14.box"
+start count25646
+end count25852
+"eng.SegBinImg.exp15.box"
+start count25852
+end count26065
+"eng.SegBinImg.exp16.box"
+start count26065
+end count26269
+"eng.SegBinImg.exp17.box"
+start count26269
+end count26456
+"eng.SegBinImg.exp2.box"
+start count26456
+end count26662
+"eng.SegBinImg.exp3.box"
+start count26662
+end count26870
+"eng.SegBinImg.exp4.box"
+start count26870
+end count27075
+"eng.SegBinImg.exp5.box"
+start count27075
+end count27284
+"eng.SegBinImg.exp6.box"
+start count27284
+end count27494
+"eng.SegBinImg.exp7.box"
+start count27494
+end count27701
+"eng.SegBinImg.exp8.box"
+start count27701
+end count27908
+"eng.SegBinImg.exp9.box"
+start count27908
+end count28116
