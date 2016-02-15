@@ -23,7 +23,11 @@ using namespace std;
 //boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\CZEID0200A\\TrainData");
 //boost::filesystem::path SearchDir("C:\\Users\\e.yilmaz\\Source\\Train Process\\\AUSCA0100A\\TrainData");
 boost::filesystem::path SearchDir2("C:\\Users\\e.yilmaz\\Source\\Train Process");
-boost::filesystem::path SearchDir1("C:\\Users\\e.yilmaz\\Source\\Train Document Types");
+boost::filesystem::path SearchDir3("C:\\Users\\e.yilmaz\\Source\\Train Process\\ENGLISH\\TrainedData");
+
+//boost::filesystem::path SearchDir1("C:\\Users\\e.yilmaz\\Source\\Train Document Types");
+boost::filesystem::path SearchDir1("C:\\Users\\e.yilmaz\\Source\\training ocr");
+
 
 
 
@@ -122,6 +126,7 @@ void takeCharListFromTxtFile(std::string path)
 	static int count = 0;
 	//open the file and  read the char positions
 
+	std::cout << "start count" << count << std::endl;
 	if (boost::filesystem::file_size(path))
 	{
 		io::stream<io::mapped_file_source> str(path);
@@ -145,7 +150,7 @@ void takeCharListFromTxtFile(std::string path)
 		vector<string> tokens;
 		for (string x; str >> x;)
 		{
-			std::cout << "Reading from file: " << x << '\n';
+			//std::cout << "Reading from file: " << x << '\n';
 			tokenize(x, tokens);
 
 			string name = "";
@@ -254,7 +259,7 @@ void takeCharListFromTxtFile(std::string path)
 
 			if (!(boost::filesystem::exists(dir)))
 			{
-				std::cout << "Doesn't Exists" << dir << std::endl;
+				//std::cout << "Doesn't Exists" << dir << std::endl;
 
 				if (boost::filesystem::create_directory(dir))
 					std::cout << "....Successfully Created !" << std::endl;
@@ -264,7 +269,7 @@ void takeCharListFromTxtFile(std::string path)
 
 			if (!(boost::filesystem::exists(dir2)))
 			{
-				std::cout << "Doesn't Exists" << dir2 << std::endl;
+				//std::cout << "Doesn't Exists" << dir2 << std::endl;
 
 				if (boost::filesystem::create_directory(dir2))
 					std::cout << "....Successfully Created !" << std::endl;
@@ -282,7 +287,7 @@ void takeCharListFromTxtFile(std::string path)
 
 			if (!(boost::filesystem::exists(dir3)))
 			{
-				std::cout << "Doesn't Exists" << dir3 << std::endl;
+				//std::cout << "Doesn't Exists" << dir3 << std::endl;
 
 				if (boost::filesystem::create_directory(dir3))
 					std::cout << "....Successfully Created !" << std::endl;
@@ -292,7 +297,7 @@ void takeCharListFromTxtFile(std::string path)
 
 			if (!(boost::filesystem::exists(dir4)))
 			{
-				std::cout << "Doesn't Exists" << dir4 << std::endl;
+				//std::cout << "Doesn't Exists" << dir4 << std::endl;
 
 				if (boost::filesystem::create_directory(dir4))
 					std::cout << "....Successfully Created !" << std::endl;
@@ -304,6 +309,7 @@ void takeCharListFromTxtFile(std::string path)
 
 		}
 	}
+	std::cout << "end count" << count << std::endl;
 
 }
 void contructBoxFileFromTxtFile(std::string path)
@@ -531,7 +537,7 @@ void 	takeCharListFromBoxFile(std::string path)
 				//std::cout << "Doesn't Exists" << dir << std::endl;
 				boost::filesystem::create_directory(dir);
 				//if (boost::filesystem::create_directory(dir))
-					//std::cout << "....Successfully Created !" << std::endl;
+				//std::cout << "....Successfully Created !" << std::endl;
 			}
 
 
@@ -584,17 +590,247 @@ void 	takeCharListFromBoxFile(std::string path)
 
 		}
 	}
-	std::cout <<"end count" << count << std::endl;
+	std::cout << "end count" << count << std::endl;
 }
 
-int main()
-{
 
+void 	takeCharListFromBoxFiletif(std::string path)
+{
+	static int count = 0;
+	//open the file and  read the char positions
+
+	std::cout << "start count" << count << std::endl;
+	if (boost::filesystem::file_size(path))
+	{
+		io::stream<io::mapped_file_source> str(path);
+
+		// you can read from str like from any stream, str >> x >> y >> z
+
+		//read the binarized image
+		string pathBinImg = path;
+
+		pathBinImg = std::regex_replace(pathBinImg, std::regex("box"), "tif");
+
+		std::vector< cv::Mat > 	mats;
+		cv::imreadmulti(pathBinImg, mats);
+
+		for (string name; str >> name;)
+		{
+			float X1 = 0;
+			float Y1 = 0;
+			float X2 = 0;
+			float Y2 = 0;
+			int   page = 0;
+			str >> X1 >> Y1 >> X2 >> Y2 >> page;
+
+
+			cv::Rect myROI(X1, mats[page].size().height - Y2, X2 - X1, Y2 - Y1);
+
+			// Crop the full image to that image contained by the rectangle myROI
+			// Note that this doesn't copy the data
+			cv::Mat croppedBinImage;
+
+			try
+			{
+				croppedBinImage = mats[page](myROI);
+
+			}
+			catch (...)
+			{
+				continue;
+			}
+
+			//store it to related folder
+			count++;
+
+			string scount = std::to_string(count);
+
+
+			string cropBinImgPath = SearchDir3.string() + "\\BOX_CHARS_BIN\\";
+
+			boost::filesystem::path dir(cropBinImgPath);
+
+			if (!(boost::filesystem::exists(dir)))
+			{
+				//std::cout << "Doesn't Exists" << dir << std::endl;
+				boost::filesystem::create_directory(dir);
+				//if (boost::filesystem::create_directory(dir))
+				//std::cout << "....Successfully Created !" << std::endl;
+			}
+
+
+			switch (name.c_str()[0])
+			{
+			case '\\': name = "slash";
+				break;
+			case '\*': name = "star";
+				break;
+
+			case '\?': name = "question";
+				break;
+
+			case '\:': name = "dotdot";
+				break;
+
+			case '\"': name = "upper";
+				break;
+
+			case '\<': name = "small";
+				break;
+
+			case '\>': name = "bigger";
+				break;
+
+			case '\|': name = "or";
+				break;
+
+			case '\/': name = "backslash";
+				break;
+			case '\.': name = "dot";
+				break;
+
+
+			default:
+				break;
+			}
+			cropBinImgPath = cropBinImgPath + name + "\\";
+			boost::filesystem::path dir2(cropBinImgPath);
+
+			if (!(boost::filesystem::exists(dir2)))
+			{
+				//std::cout << "Doesn't Exists" << dir2 << std::endl;
+				boost::filesystem::create_directory(dir2);
+				/*if (boost::filesystem::create_directory(dir2))
+				std::cout << "....Successfully Created !" << std::endl;*/
+			}
+			cropBinImgPath = cropBinImgPath + scount + ".jpg";
+			cv::imwrite(cropBinImgPath, croppedBinImage);
+
+		}
+	}
+	std::cout << "end count" << count << std::endl;
+}
+
+void GetCharfromBoxFile(std::string path, std::string ch)
+{
+	std::string pathnew = SearchDir3.string() + "\\" + "missingChars.box";
+	//ofstream ofs(pathnew, ios::app);
+	FILE* file = fopen(pathnew.c_str(), "ab");
+	
+	if (boost::filesystem::file_size(path))
+	{
+		io::stream<io::mapped_file_source> str(path);
+
+		for (string name; str >> name;)
+		{
+			int X1 = 0;
+			int Y1 = 0;
+			int X2 = 0;
+			int Y2 = 0;
+			int   page = 0;
+			str >> X1 >> Y1 >> X2 >> Y2 >> page;
+
+			if (name == ch)
+			{
+				// put the result file  
+
+				/*ofs << name << " " << X1 << " " << Y1 << " " << X2 << " " << Y2 << " " << page;
+				ofs.put('\x0A');*/
+				fprintf(file, "%s %d %d %d %d %d\n", name.c_str(), X1, X2, Y1, Y2, page);
+			}
+		}
+	}
+	fclose(file);
+}
+
+void GetCharfromTRFile(std::string path, std::string fn, std::string ch)
+{
+	std::string pathnew = SearchDir3.string() + "\\" + "missingChars.tr";
+	//ofstream ofs(pathnew, ios::app);
+	FILE* file = fopen(pathnew.c_str(), "ab");
+
+	path = std::regex_replace(path, std::regex("box"), "tr");
+	//open the file and  read the char positions
+
+	if (boost::filesystem::file_size(path))
+	{
+		io::stream<io::mapped_file_source> str(path);
+		string name; str >> name;
+
+		//if the name is fontname, compare for character match
+		do
+		{
+			again:
+			if (name == fn)
+			{
+				string rch;
+				str >> rch;
+				if (rch == ch)
+				{
+					// match also characters read and copy until next font name
+					//ofs << name << " " << ch << "  
+					fprintf(file, "%s %s ", "SegBinImg", ch.c_str());
+					for (std::string x; std::getline(str, x, '\n');)
+					{
+						//ofs << " "<< x <<"\x0A";
+						if (x != "")
+							fprintf(file, " %s\n", x.c_str());
+						else
+							fprintf(file, "\n", x.c_str());
+						// read firt word of the line
+						str >> name;
+						// if it is font name exit from loop
+						if (name == fn)
+							goto again;
+						else
+						{
+							char* pEnd;
+							float f1, f2;
+							bool negate = (name[0] == '-');
+							
+							int isNumber = negate || std::isdigit(name[0]);
+							if (isNumber)
+								//ofs << " " <<name;
+								fprintf(file, " %s", name.c_str());
+							else
+								//ofs << name;
+							    fprintf(file, "%s", name.c_str());
+						}
+
+					}
+					break;
+				}
+				else
+				{
+					// skip to until next font name
+					for (name; str >> name;)
+					{
+						if (name == fn)
+						{
+							goto again;
+						}
+							
+					}
+					break;
+				}
+
+			}
+		} 
+		while (true);
+
+	}
+}
+
+int main(int argc, char** argv)
+{
 	std::vector<boost::filesystem::path> ret;
 	int taskId = 1;
 	cout << "Enter the task to do" << endl;
 	cout << "1-generate box file from char places txt" << endl;
 	cout << "2-generate character folders from box file" << endl;
+	cout << "3-generate character folders from tif box file" << endl;
+	cout << "4-get characters from box and tr files" << endl;
+
 	cin >> taskId;
 
 	if (taskId == 1)
@@ -602,15 +838,15 @@ int main()
 		FindFiles(SearchDir1, ret, "CharPlaces.txt");
 		for (auto i = ret.begin(); i != ret.end(); i++)
 		{
-
+			std::cout << i->string() << std::endl;
 			// start to take character places
 			SearchDir1 = i->parent_path().parent_path();
-			//takeCharListFromTxtFile(i->string());
+			takeCharListFromTxtFile(i->string());
 			contructBoxFileFromTxtFile(i->string());
 		}
 	}
 
-	else
+	else if (taskId == 2)
 	{
 		//Takes all characters after box update
 		FindBoxFiles(SearchDir2, ret);
@@ -621,9 +857,49 @@ int main()
 
 			SearchDir2 = i->parent_path();
 			// start to take character places
-			takeCharListFromBoxFile( i->string());
+			takeCharListFromBoxFile(i->string());
+
 		}
 
+	}
+	else if (taskId == 3)
+	{
+		//Takes all characters after box update
+		FindBoxFiles(SearchDir3, ret);
+		for (auto i = ret.begin(); i != ret.end(); i++)
+		{
+
+			std::cout << i->filename() << std::endl;
+
+			SearchDir3 = i->parent_path();
+
+			takeCharListFromBoxFiletif(i->string());
+		}
+
+	}
+	else
+	{
+		// get characters from the box and tr  files
+		//Takes all characters after box update
+		FindBoxFiles(SearchDir3, ret);
+		for (auto i = ret.begin(); i != ret.end(); i++)
+		{
+
+			if ((i->filename() != "missingChars.box") && (i->filename() != "missingChars.tr"))
+			{
+				std::cout << i->filename() << std::endl;
+
+				SearchDir3 = i->parent_path();
+
+				if (argc == 3)
+				{
+					GetCharfromBoxFile(i->string(), std::string(argv[2]));
+					GetCharfromTRFile(i->string(), std::string(argv[1]), std::string(argv[2]));
+				}
+
+			}
+
+		}
 	}
 
 	return 0;

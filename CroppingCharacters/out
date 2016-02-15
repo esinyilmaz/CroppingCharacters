@@ -1,726 +1,819 @@
 Enter the task to do
 1-generate box file from char places txt
 2-generate character folders from box file
-"eng.SegBinImg.exp0.box"
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016976Log\CharPlaces.txt
 start count0
-end count92
-"eng.SegBinImg.exp1.box"
-start count92
-end count175
-"eng.SegBinImg.exp10.box"
-start count175
-end count263
-"eng.SegBinImg.exp11.box"
-start count263
-end count342
-"eng.SegBinImg.exp12.box"
-start count342
-end count426
-"eng.SegBinImg.exp13.box"
-start count426
-end count510
-"eng.SegBinImg.exp14.box"
-start count510
-end count602
-"eng.SegBinImg.exp15.box"
-start count602
-end count684
-"eng.SegBinImg.exp16.box"
-start count684
-end count775
-"eng.SegBinImg.exp17.box"
-start count775
-end count863
-"eng.SegBinImg.exp18.box"
-start count863
-end count930
-"eng.SegBinImg.exp19.box"
-start count930
-end count1018
-"eng.SegBinImg.exp2.box"
-start count1018
-end count1098
-"eng.SegBinImg.exp20.box"
-start count1098
-end count1184
-"eng.SegBinImg.exp21.box"
-start count1184
-end count1270
-"eng.SegBinImg.exp22.box"
-start count1270
-end count1361
-"eng.SegBinImg.exp23.box"
-start count1361
-end count1447
-"eng.SegBinImg.exp24.box"
-start count1447
-end count1535
-"eng.SegBinImg.exp25.box"
-start count1535
-end count1620
-"eng.SegBinImg.exp26.box"
-start count1620
-end count1716
-"eng.SegBinImg.exp27.box"
-start count1716
-end count1802
-"eng.SegBinImg.exp28.box"
-start count1802
-end count1879
-"eng.SegBinImg.exp29.box"
-start count1879
-end count1961
-"eng.SegBinImg.exp3.box"
-start count1961
-end count2052
-"eng.SegBinImg.exp30.box"
-start count2052
-end count2135
-"eng.SegBinImg.exp31.box"
-start count2135
-end count2231
-"eng.SegBinImg.exp32.box"
-start count2231
-end count2318
-"eng.SegBinImg.exp33.box"
-start count2318
-end count2405
-"eng.SegBinImg.exp34.box"
-start count2405
-end count2485
-"eng.SegBinImg.exp35.box"
-start count2485
-end count2579
-"eng.SegBinImg.exp36.box"
-start count2579
-end count2667
-"eng.SegBinImg.exp37.box"
-start count2667
-end count2736
-"eng.SegBinImg.exp38.box"
-start count2736
-end count2815
-"eng.SegBinImg.exp39.box"
-start count2815
-end count2915
-"eng.SegBinImg.exp4.box"
-start count2915
-end count2991
-"eng.SegBinImg.exp40.box"
-start count2991
-end count3085
-"eng.SegBinImg.exp41.box"
-start count3085
-end count3183
-"eng.SegBinImg.exp42.box"
-start count3183
-end count3276
-"eng.SegBinImg.exp43.box"
-start count3276
-end count3362
-"eng.SegBinImg.exp44.box"
-start count3362
-end count3447
-"eng.SegBinImg.exp45.box"
-start count3447
-end count3529
-"eng.SegBinImg.exp46.box"
-start count3529
-end count3618
-"eng.SegBinImg.exp47.box"
-start count3618
-end count3700
-"eng.SegBinImg.exp48.box"
-start count3700
-end count3788
-"eng.SegBinImg.exp49.box"
-start count3788
-end count3877
-"eng.SegBinImg.exp5.box"
-start count3877
-end count3956
-"eng.SegBinImg.exp6.box"
-start count3956
-end count4038
-"eng.SegBinImg.exp7.box"
-start count4038
-end count4119
-"eng.SegBinImg.exp8.box"
-start count4119
-end count4204
-"eng.SegBinImg.exp9.box"
-start count4204
-end count4290
-"eng.SegBinImg.exp0.box"
-start count4290
-end count4360
-"eng.SegBinImg.exp1.box"
-start count4360
-end count4404
-"eng.SegBinImg.exp10.box"
-start count4404
-end count4459
-"eng.SegBinImg.exp11.box"
-start count4459
-end count4530
-"eng.SegBinImg.exp12.box"
-start count4530
-end count4594
-"eng.SegBinImg.exp13.box"
-start count4594
-end count4641
-"eng.SegBinImg.exp14.box"
-start count4641
-end count4707
-"eng.SegBinImg.exp15.box"
-start count4707
-end count4783
-"eng.SegBinImg.exp16.box"
-start count4783
-end count4845
-"eng.SegBinImg.exp17.box"
-start count4845
-end count4911
-"eng.SegBinImg.exp18.box"
-start count4911
-end count4979
-"eng.SegBinImg.exp19.box"
-start count4979
-end count5043
-"eng.SegBinImg.exp2.box"
-start count5043
-end count5112
-"eng.SegBinImg.exp20.box"
-start count5112
-end count5180
-"eng.SegBinImg.exp21.box"
-start count5180
-end count5250
-"eng.SegBinImg.exp22.box"
-start count5250
-end count5315
-"eng.SegBinImg.exp23.box"
-start count5315
-end count5382
-"eng.SegBinImg.exp3.box"
-start count5382
-end count5450
-"eng.SegBinImg.exp4.box"
-start count5450
-end count5523
-"eng.SegBinImg.exp5.box"
-start count5523
-end count5588
-"eng.SegBinImg.exp6.box"
-start count5588
-end count5663
-"eng.SegBinImg.exp7.box"
-start count5663
-end count5735
-"eng.SegBinImg.exp8.box"
-start count5735
-end count5793
-"eng.SegBinImg.exp9.box"
-start count5793
-end count5854
-"eng.SegBinImg.exp0.box"
-start count5854
-end count5921
-"eng.SegBinImg.exp1.box"
-start count5921
+end count74
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016977Log\CharPlaces.txt
+start count74
+end count136
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016978Log\CharPlaces.txt
+start count136
+end count205
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016979Log\CharPlaces.txt
+start count205
+end count280
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016980Log\CharPlaces.txt
+start count280
+end count356
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016981Log\CharPlaces.txt
+start count356
+end count424
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016982Log\CharPlaces.txt
+start count424
+end count495
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016983Log\CharPlaces.txt
+start count495
+end count560
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016984Log\CharPlaces.txt
+start count560
+end count627
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016985Log\CharPlaces.txt
+start count627
+end count689
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016986Log\CharPlaces.txt
+start count689
+end count755
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016987Log\CharPlaces.txt
+start count755
+end count822
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016988Log\CharPlaces.txt
+start count822
+end count887
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016989Log\CharPlaces.txt
+start count887
+end count949
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016990Log\CharPlaces.txt
+start count949
+end count1008
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016992Log\CharPlaces.txt
+start count1008
+end count1086
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016993Log\CharPlaces.txt
+start count1086
+end count1157
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016994Log\CharPlaces.txt
+start count1157
+end count1224
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016995Log\CharPlaces.txt
+start count1224
+end count1283
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016996Log\CharPlaces.txt
+start count1283
+end count1351
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016997Log\CharPlaces.txt
+start count1351
+end count1416
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016998Log\CharPlaces.txt
+start count1416
+end count1490
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0016999Log\CharPlaces.txt
+start count1490
+end count1558
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017000Log\CharPlaces.txt
+start count1558
+end count1627
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017001Log\CharPlaces.txt
+start count1627
+end count1708
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017002Log\CharPlaces.txt
+start count1708
+end count1763
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017003Log\CharPlaces.txt
+start count1763
+end count1848
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017004Log\CharPlaces.txt
+start count1848
+end count1917
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017005Log\CharPlaces.txt
+start count1917
+end count1985
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017006Log\CharPlaces.txt
+start count1985
+end count2064
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017007Log\CharPlaces.txt
+start count2064
+end count2129
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017008Log\CharPlaces.txt
+start count2129
+end count2195
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017009Log\CharPlaces.txt
+start count2195
+end count2276
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017010Log\CharPlaces.txt
+start count2276
+end count2350
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017011Log\CharPlaces.txt
+start count2350
+end count2414
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017012Log\CharPlaces.txt
+start count2414
+end count2478
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017013Log\CharPlaces.txt
+start count2478
+end count2551
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017014Log\CharPlaces.txt
+start count2551
+end count2619
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017015Log\CharPlaces.txt
+start count2619
+end count2684
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017016Log\CharPlaces.txt
+start count2684
+end count2750
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017017Log\CharPlaces.txt
+start count2750
+end count2818
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017018Log\CharPlaces.txt
+start count2818
+end count2892
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017019Log\CharPlaces.txt
+start count2892
+end count2958
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017020Log\CharPlaces.txt
+start count2958
+end count3021
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017021Log\CharPlaces.txt
+start count3021
+end count3101
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017420Log\CharPlaces.txt
+start count3101
+end count3170
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017421Log\CharPlaces.txt
+start count3170
+end count3241
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017422Log\CharPlaces.txt
+start count3241
+end count3317
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017423Log\CharPlaces.txt
+start count3317
+end count3391
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017424Log\CharPlaces.txt
+start count3391
+end count3464
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017425Log\CharPlaces.txt
+start count3464
+end count3530
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017426Log\CharPlaces.txt
+start count3530
+end count3601
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017427Log\CharPlaces.txt
+start count3601
+end count3676
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017428Log\CharPlaces.txt
+start count3676
+end count3745
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017429Log\CharPlaces.txt
+start count3745
+end count3822
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017430Log\CharPlaces.txt
+start count3822
+end count3885
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017431Log\CharPlaces.txt
+start count3885
+end count3962
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017432Log\CharPlaces.txt
+start count3962
+end count4031
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017433Log\CharPlaces.txt
+start count4031
+end count4093
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017434Log\CharPlaces.txt
+start count4093
+end count4170
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017435Log\CharPlaces.txt
+start count4170
+end count4242
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017436Log\CharPlaces.txt
+start count4242
+end count4319
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017437Log\CharPlaces.txt
+start count4319
+end count4386
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017438Log\CharPlaces.txt
+start count4386
+end count4465
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017439Log\CharPlaces.txt
+start count4465
+end count4540
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017440Log\CharPlaces.txt
+start count4540
+end count4598
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017441Log\CharPlaces.txt
+start count4598
+end count4663
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017442Log\CharPlaces.txt
+start count4663
+end count4731
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017443Log\CharPlaces.txt
+start count4731
+end count4789
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017444Log\CharPlaces.txt
+start count4789
+end count4843
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017445Log\CharPlaces.txt
+start count4843
+end count4907
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017446Log\CharPlaces.txt
+start count4907
+end count4976
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017447Log\CharPlaces.txt
+start count4976
+end count5037
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017448Log\CharPlaces.txt
+start count5037
+end count5099
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017449Log\CharPlaces.txt
+start count5099
+end count5183
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017450Log\CharPlaces.txt
+start count5183
+end count5258
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017451Log\CharPlaces.txt
+start count5258
+end count5334
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017452Log\CharPlaces.txt
+start count5334
+end count5409
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017453Log\CharPlaces.txt
+start count5409
+end count5480
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017454Log\CharPlaces.txt
+start count5480
+end count5554
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017455Log\CharPlaces.txt
+start count5554
+end count5631
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017456Log\CharPlaces.txt
+start count5631
+end count5709
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017457Log\CharPlaces.txt
+start count5709
+end count5781
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017458Log\CharPlaces.txt
+start count5781
+end count5853
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017459Log\CharPlaces.txt
+start count5853
+end count5925
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017460Log\CharPlaces.txt
+start count5925
 end count5988
-"eng.SegBinImg.exp10.box"
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017461Log\CharPlaces.txt
 start count5988
-end count6058
-"eng.SegBinImg.exp11.box"
-start count6058
-end count6129
-"eng.SegBinImg.exp12.box"
-start count6129
+end count6059
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017462Log\CharPlaces.txt
+start count6059
+end count6131
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017463Log\CharPlaces.txt
+start count6131
 end count6204
-"eng.SegBinImg.exp13.box"
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017464Log\CharPlaces.txt
 start count6204
-end count6283
-"eng.SegBinImg.exp14.box"
-start count6283
-end count6352
-"eng.SegBinImg.exp15.box"
-start count6352
-end count6418
-"eng.SegBinImg.exp16.box"
-start count6418
-end count6490
-"eng.SegBinImg.exp17.box"
-start count6490
-end count6557
-"eng.SegBinImg.exp18.box"
-start count6557
-end count6626
-"eng.SegBinImg.exp19.box"
-start count6626
-end count6712
-"eng.SegBinImg.exp2.box"
-start count6712
-end count6779
-"eng.SegBinImg.exp20.box"
-start count6779
-end count6849
-"eng.SegBinImg.exp21.box"
-start count6849
-end count6926
-"eng.SegBinImg.exp22.box"
-start count6926
-end count7016
-"eng.SegBinImg.exp23.box"
-start count7016
-end count7092
-"eng.SegBinImg.exp24.box"
-start count7092
-end count7164
-"eng.SegBinImg.exp25.box"
-start count7164
-end count7243
-"eng.SegBinImg.exp26.box"
-start count7243
-end count7322
-"eng.SegBinImg.exp27.box"
-start count7322
-end count7392
-"eng.SegBinImg.exp28.box"
-start count7392
-end count7464
-"eng.SegBinImg.exp29.box"
-start count7464
-end count7526
-"eng.SegBinImg.exp3.box"
-start count7526
-end count7605
-"eng.SegBinImg.exp30.box"
-start count7605
-end count7674
-"eng.SegBinImg.exp31.box"
-start count7674
-end count7750
-"eng.SegBinImg.exp32.box"
-start count7750
-end count7820
-"eng.SegBinImg.exp33.box"
-start count7820
-end count7895
-"eng.SegBinImg.exp34.box"
-start count7895
-end count7963
-"eng.SegBinImg.exp35.box"
-start count7963
-end count8045
-"eng.SegBinImg.exp36.box"
-start count8045
-end count8114
-"eng.SegBinImg.exp37.box"
-start count8114
-end count8178
-"eng.SegBinImg.exp38.box"
-start count8178
-end count8248
-"eng.SegBinImg.exp39.box"
-start count8248
-end count8327
-"eng.SegBinImg.exp4.box"
-start count8327
-end count8395
-"eng.SegBinImg.exp40.box"
-start count8395
-end count8458
-"eng.SegBinImg.exp41.box"
-start count8458
-end count8526
-"eng.SegBinImg.exp42.box"
-start count8526
-end count8602
-"eng.SegBinImg.exp43.box"
-start count8602
-end count8682
-"eng.SegBinImg.exp44.box"
-start count8682
-end count8754
-"eng.SegBinImg.exp45.box"
-start count8754
-end count8828
-"eng.SegBinImg.exp46.box"
-start count8828
-end count8899
-"eng.SegBinImg.exp47.box"
-start count8899
-end count8972
-"eng.SegBinImg.exp48.box"
-start count8972
-end count9040
-"eng.SegBinImg.exp49.box"
-start count9040
-end count9118
-"eng.SegBinImg.exp5.box"
-start count9118
-end count9181
-"eng.SegBinImg.exp6.box"
-start count9181
-end count9254
-"eng.SegBinImg.exp7.box"
-start count9254
-end count9320
-"eng.SegBinImg.exp8.box"
-start count9320
-end count9387
-"eng.SegBinImg.exp9.box"
-start count9387
-end count9466
-"eng.SegBinImg.exp0.box"
-start count9466
-end count9588
-"eng.SegBinImg.exp1.box"
-start count9588
-end count9712
-"eng.SegBinImg.exp10.box"
-start count9712
-end count9828
-"eng.SegBinImg.exp11.box"
-start count9828
-end count9951
-"eng.SegBinImg.exp12.box"
-start count9951
-end count10093
-"eng.SegBinImg.exp13.box"
-start count10093
-end count10219
-"eng.SegBinImg.exp14.box"
-start count10219
-end count10343
-"eng.SegBinImg.exp15.box"
-start count10343
-end count10467
-"eng.SegBinImg.exp16.box"
-start count10467
-end count10580
-"eng.SegBinImg.exp17.box"
-start count10580
-end count10709
-"eng.SegBinImg.exp18.box"
-start count10709
-end count10828
-"eng.SegBinImg.exp19.box"
-start count10828
-end count10956
-"eng.SegBinImg.exp2.box"
-start count10956
-end count11087
-"eng.SegBinImg.exp20.box"
-start count11087
-end count11202
-"eng.SegBinImg.exp21.box"
-start count11202
-end count11339
-"eng.SegBinImg.exp22.box"
-start count11339
-end count11454
-"eng.SegBinImg.exp23.box"
-start count11454
-end count11574
-"eng.SegBinImg.exp3.box"
-start count11574
-end count11689
-"eng.SegBinImg.exp4.box"
-start count11689
-end count11800
-"eng.SegBinImg.exp5.box"
-start count11800
-end count11923
-"eng.SegBinImg.exp6.box"
-start count11923
-end count12054
-"eng.SegBinImg.exp7.box"
-start count12054
-end count12177
-"eng.SegBinImg.exp8.box"
-start count12177
-end count12296
-"eng.SegBinImg.exp9.box"
-start count12296
-end count12406
-"eng.SegBinImg.exp0.box"
-start count12406
-end count12524
-"eng.SegBinImg.exp1.box"
-start count12524
-end count12638
-"eng.SegBinImg.exp10.box"
-start count12638
-end count12749
-"eng.SegBinImg.exp11.box"
-start count12749
-end count12867
-"eng.SegBinImg.exp12.box"
-start count12867
-end count12991
-"eng.SegBinImg.exp13.box"
-start count12991
-end count13116
-"eng.SegBinImg.exp14.box"
-start count13116
-end count13225
-"eng.SegBinImg.exp15.box"
-start count13225
-end count13333
-"eng.SegBinImg.exp16.box"
-start count13333
-end count13461
-"eng.SegBinImg.exp17.box"
-start count13461
-end count13587
-"eng.SegBinImg.exp18.box"
-start count13587
-end count13712
-"eng.SegBinImg.exp19.box"
-start count13712
-end count13818
-"eng.SegBinImg.exp2.box"
-start count13818
-end count13923
-"eng.SegBinImg.exp3.box"
-start count13923
-end count14038
-"eng.SegBinImg.exp4.box"
-start count14038
-end count14146
-"eng.SegBinImg.exp5.box"
-start count14146
-end count14191
-"eng.SegBinImg.exp6.box"
-start count14191
-end count14300
-"eng.SegBinImg.exp7.box"
-start count14300
-end count14442
-"eng.SegBinImg.exp8.box"
-start count14442
-end count14565
-"eng.SegBinImg.exp9.box"
-start count14565
-end count14665
-"eng.SegBinImg.exp0.box"
-start count14665
-end count14842
-"eng.SegBinImg.exp1.box"
-start count14842
-end count15010
-"eng.SegBinImg.exp10.box"
-start count15010
-end count15185
-"eng.SegBinImg.exp11.box"
-start count15185
-end count15356
-"eng.SegBinImg.exp12.box"
-start count15356
-end count15530
-"eng.SegBinImg.exp13.box"
-start count15530
-end count15709
-"eng.SegBinImg.exp14.box"
-start count15709
-end count15882
-"eng.SegBinImg.exp15.box"
-start count15882
-end count16061
-"eng.SegBinImg.exp16.box"
-start count16061
-end count16234
-"eng.SegBinImg.exp17.box"
-start count16234
-end count16412
-"eng.SegBinImg.exp18.box"
-start count16412
-end count16589
-"eng.SegBinImg.exp19.box"
-start count16589
-end count16765
-"eng.SegBinImg.exp2.box"
-start count16765
-end count16942
-"eng.SegBinImg.exp20.box"
-start count16942
-end count17124
-"eng.SegBinImg.exp21.box"
-start count17124
+end count6276
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017465Log\CharPlaces.txt
+start count6276
+end count6345
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017466Log\CharPlaces.txt
+start count6345
+end count6413
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017467Log\CharPlaces.txt
+start count6413
+end count6472
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017468Log\CharPlaces.txt
+start count6472
+end count6536
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017469Log\CharPlaces.txt
+start count6536
+end count6597
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017470Log\CharPlaces.txt
+start count6597
+end count6673
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017471Log\CharPlaces.txt
+start count6673
+end count6734
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017472Log\CharPlaces.txt
+start count6734
+end count6798
+C:\Users\e.yilmaz\Source\training ocr\AUSDL4100A\AUSDL4100A-S-0017473Log\CharPlaces.txt
+start count6798
+end count6857
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019666Log\CharPlaces.txt
+start count6857
+end count7030
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019667Log\CharPlaces.txt
+start count7030
+end count7201
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019668Log\CharPlaces.txt
+start count7201
+end count7373
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019670Log\CharPlaces.txt
+start count7373
+end count7554
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019672Log\CharPlaces.txt
+start count7554
+end count7731
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019673Log\CharPlaces.txt
+start count7731
+end count7906
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019674Log\CharPlaces.txt
+start count7906
+end count8088
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019675Log\CharPlaces.txt
+start count8088
+end count8259
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019676Log\CharPlaces.txt
+start count8259
+end count8434
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019677Log\CharPlaces.txt
+start count8434
+end count8616
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019678Log\CharPlaces.txt
+start count8616
+end count8797
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019679Log\CharPlaces.txt
+start count8797
+end count8970
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019680Log\CharPlaces.txt
+start count8970
+end count9140
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019681Log\CharPlaces.txt
+start count9140
+end count9327
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019682Log\CharPlaces.txt
+start count9327
+end count9504
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019683Log\CharPlaces.txt
+start count9504
+end count9681
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019684Log\CharPlaces.txt
+start count9681
+end count9856
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019685Log\CharPlaces.txt
+start count9856
+end count10029
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019686Log\CharPlaces.txt
+start count10029
+end count10213
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019687Log\CharPlaces.txt
+start count10213
+end count10396
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019688Log\CharPlaces.txt
+start count10396
+end count10569
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019689Log\CharPlaces.txt
+start count10569
+end count10743
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019690Log\CharPlaces.txt
+start count10743
+end count10911
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019691Log\CharPlaces.txt
+start count10911
+end count11092
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019692Log\CharPlaces.txt
+start count11092
+end count11275
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019693Log\CharPlaces.txt
+start count11275
+end count11456
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019694Log\CharPlaces.txt
+start count11456
+end count11633
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019695Log\CharPlaces.txt
+start count11633
+end count11815
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019696Log\CharPlaces.txt
+start count11815
+end count11985
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019697Log\CharPlaces.txt
+start count11985
+end count12156
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019698Log\CharPlaces.txt
+start count12156
+end count12329
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019699Log\CharPlaces.txt
+start count12329
+end count12504
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019700Log\CharPlaces.txt
+start count12504
+end count12678
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019701Log\CharPlaces.txt
+start count12678
+end count12861
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019702Log\CharPlaces.txt
+start count12861
+end count13034
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019703Log\CharPlaces.txt
+start count13034
+end count13213
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019704Log\CharPlaces.txt
+start count13213
+end count13393
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019705Log\CharPlaces.txt
+start count13393
+end count13565
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019706Log\CharPlaces.txt
+start count13565
+end count13740
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019707Log\CharPlaces.txt
+start count13740
+end count13914
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019709Log\CharPlaces.txt
+start count13914
+end count14099
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019710Log\CharPlaces.txt
+start count14099
+end count14281
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019711Log\CharPlaces.txt
+start count14281
+end count14457
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019712Log\CharPlaces.txt
+start count14457
+end count14634
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019713Log\CharPlaces.txt
+start count14634
+end count14813
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019714Log\CharPlaces.txt
+start count14813
+end count14989
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019715Log\CharPlaces.txt
+start count14989
+end count15169
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019716Log\CharPlaces.txt
+start count15169
+end count15348
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019717Log\CharPlaces.txt
+start count15348
+end count15522
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019718Log\CharPlaces.txt
+start count15522
+end count15697
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019719Log\CharPlaces.txt
+start count15697
+end count15871
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019720Log\CharPlaces.txt
+start count15871
+end count16047
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019722Log\CharPlaces.txt
+start count16047
+end count16235
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019724Log\CharPlaces.txt
+start count16235
+end count16407
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019725Log\CharPlaces.txt
+start count16407
+end count16584
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019726Log\CharPlaces.txt
+start count16584
+end count16760
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019727Log\CharPlaces.txt
+start count16760
+end count16941
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019728Log\CharPlaces.txt
+start count16941
+end count17119
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019729Log\CharPlaces.txt
+start count17119
 end count17297
-"eng.SegBinImg.exp22.box"
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019730Log\CharPlaces.txt
 start count17297
 end count17468
-"eng.SegBinImg.exp23.box"
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019732Log\CharPlaces.txt
 start count17468
-end count17646
-"eng.SegBinImg.exp3.box"
-start count17646
-end count17823
-"eng.SegBinImg.exp4.box"
-start count17823
-end count18002
-"eng.SegBinImg.exp5.box"
-start count18002
-end count18129
-"eng.SegBinImg.exp6.box"
-start count18129
-end count18300
-"eng.SegBinImg.exp7.box"
-start count18300
-end count18472
-"eng.SegBinImg.exp8.box"
-start count18472
-end count18644
-"eng.SegBinImg.exp9.box"
-start count18644
-end count18812
-"eng.SegBinImg.exp0.box"
-start count18812
-end count18985
-"eng.SegBinImg.exp1.box"
-start count18985
-end count19156
-"eng.SegBinImg.exp10.box"
-start count19156
-end count19337
-"eng.SegBinImg.exp11.box"
-start count19337
-end count19510
-"eng.SegBinImg.exp12.box"
-start count19510
-end count19680
-"eng.SegBinImg.exp13.box"
-start count19680
-end count19867
-"eng.SegBinImg.exp14.box"
-start count19867
-end count20044
-"eng.SegBinImg.exp15.box"
-start count20044
-end count20216
-"eng.SegBinImg.exp16.box"
-start count20216
-end count20391
-"eng.SegBinImg.exp17.box"
-start count20391
-end count20564
-"eng.SegBinImg.exp18.box"
-start count20564
-end count20747
-"eng.SegBinImg.exp19.box"
-start count20747
-end count20930
-"eng.SegBinImg.exp2.box"
-start count20930
-end count21101
-"eng.SegBinImg.exp20.box"
-start count21101
-end count21274
-"eng.SegBinImg.exp21.box"
-start count21274
-end count21448
-"eng.SegBinImg.exp22.box"
-start count21448
-end count21618
-"eng.SegBinImg.exp23.box"
-start count21618
-end count21799
-"eng.SegBinImg.exp3.box"
-start count21799
-end count21980
-"eng.SegBinImg.exp4.box"
-start count21980
-end count22157
-"eng.SegBinImg.exp5.box"
-start count22157
-end count22331
-"eng.SegBinImg.exp6.box"
-start count22331
-end count22513
-"eng.SegBinImg.exp7.box"
-start count22513
-end count22684
-"eng.SegBinImg.exp8.box"
-start count22684
-end count22859
-"eng.SegBinImg.exp9.box"
-start count22859
-end count23040
-"eng.SegBinImg.exp0.box"
-start count23040
-end count23231
-"eng.SegBinImg.exp1.box"
-start count23231
-end count23433
-"eng.SegBinImg.exp2.box"
-start count23433
-end count23632
-"eng.SegBinImg.exp3.box"
-start count23632
-end count23835
-"eng.SegBinImg.exp4.box"
-start count23835
-end count24034
-"eng.SegBinImg.exp5.box"
-start count24034
-end count24212
-"eng.SegBinImg.exp6.box"
-start count24212
-end count24407
-"eng.SegBinImg.exp0.box"
-start count24407
-end count24604
-"eng.SegBinImg.exp1.box"
-start count24604
-end count24812
-"eng.SegBinImg.exp10.box"
-start count24812
-end count25022
-"eng.SegBinImg.exp11.box"
-start count25022
-end count25230
-"eng.SegBinImg.exp12.box"
-start count25230
-end count25440
-"eng.SegBinImg.exp13.box"
-start count25440
-end count25646
-"eng.SegBinImg.exp14.box"
-start count25646
-end count25852
-"eng.SegBinImg.exp15.box"
-start count25852
-end count26065
-"eng.SegBinImg.exp16.box"
-start count26065
-end count26269
-"eng.SegBinImg.exp17.box"
-start count26269
-end count26456
-"eng.SegBinImg.exp2.box"
-start count26456
-end count26662
-"eng.SegBinImg.exp3.box"
-start count26662
-end count26870
-"eng.SegBinImg.exp4.box"
-start count26870
-end count27075
-"eng.SegBinImg.exp5.box"
-start count27075
-end count27284
-"eng.SegBinImg.exp6.box"
-start count27284
-end count27494
-"eng.SegBinImg.exp7.box"
-start count27494
-end count27701
-"eng.SegBinImg.exp8.box"
-start count27701
-end count27908
-"eng.SegBinImg.exp9.box"
-start count27908
-end count28116
+end count17656
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019733Log\CharPlaces.txt
+start count17656
+end count17835
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019734Log\CharPlaces.txt
+start count17835
+end count18008
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019735Log\CharPlaces.txt
+start count18008
+end count18181
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019736Log\CharPlaces.txt
+start count18181
+end count18370
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019737Log\CharPlaces.txt
+start count18370
+end count18554
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019738Log\CharPlaces.txt
+start count18554
+end count18733
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019739Log\CharPlaces.txt
+start count18733
+end count18911
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019741Log\CharPlaces.txt
+start count18911
+end count19089
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019742Log\CharPlaces.txt
+start count19089
+end count19268
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019743Log\CharPlaces.txt
+start count19268
+end count19442
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019744Log\CharPlaces.txt
+start count19442
+end count19624
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019745Log\CharPlaces.txt
+start count19624
+end count19795
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019747Log\CharPlaces.txt
+start count19795
+end count19967
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019748Log\CharPlaces.txt
+start count19967
+end count20135
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019749Log\CharPlaces.txt
+start count20135
+end count20316
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019751Log\CharPlaces.txt
+start count20316
+end count20490
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019752Log\CharPlaces.txt
+start count20490
+end count20662
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019753Log\CharPlaces.txt
+start count20662
+end count20828
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019755Log\CharPlaces.txt
+start count20828
+end count21006
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019756Log\CharPlaces.txt
+start count21006
+end count21181
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019758Log\CharPlaces.txt
+start count21181
+end count21355
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019759Log\CharPlaces.txt
+start count21355
+end count21536
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019760Log\CharPlaces.txt
+start count21536
+end count21715
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019761Log\CharPlaces.txt
+start count21715
+end count21894
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019762Log\CharPlaces.txt
+start count21894
+end count22071
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019763Log\CharPlaces.txt
+start count22071
+end count22244
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019764Log\CharPlaces.txt
+start count22244
+end count22411
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019766Log\CharPlaces.txt
+start count22411
+end count22586
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019767Log\CharPlaces.txt
+start count22586
+end count22762
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019768Log\CharPlaces.txt
+start count22762
+end count22931
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019770Log\CharPlaces.txt
+start count22931
+end count23107
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019771Log\CharPlaces.txt
+start count23107
+end count23292
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019772Log\CharPlaces.txt
+start count23292
+end count23466
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019773Log\CharPlaces.txt
+start count23466
+end count23635
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019774Log\CharPlaces.txt
+start count23635
+end count23810
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0019775Log\CharPlaces.txt
+start count23810
+end count23983
+C:\Users\e.yilmaz\Source\training ocr\GBRPP0400A\GBRPP0400A-S-0026739Log\CharPlaces.txt
+start count23983
+end count24149
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0031193Log\CharPlaces.txt
+start count24149
+end count24342
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0031194Log\CharPlaces.txt
+start count24342
+end count24546
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0031195Log\CharPlaces.txt
+start count24546
+end count24754
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0031196Log\CharPlaces.txt
+start count24754
+end count24953
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0032200Log\CharPlaces.txt
+start count24953
+end count25165
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0032201Log\CharPlaces.txt
+start count25165
+end count25367
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0032202Log\CharPlaces.txt
+start count25367
+end count25548
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0032203Log\CharPlaces.txt
+start count25548
+end count25746
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0032204Log\CharPlaces.txt
+start count25746
+end count25965
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0033972Log\CharPlaces.txt
+start count25965
+end count26159
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0033973Log\CharPlaces.txt
+start count26159
+end count26355
+C:\Users\e.yilmaz\Source\training ocr\SGPPP0201A\SGPPP0201A-S-0046152Log\CharPlaces.txt
+start count26355
+end count26506
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026351Log\CharPlaces.txt
+start count26506
+end count26705
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026353Log\CharPlaces.txt
+start count26705
+end count26913
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026357Log\CharPlaces.txt
+start count26913
+end count27121
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026358Log\CharPlaces.txt
+start count27121
+end count27326
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026359Log\CharPlaces.txt
+start count27326
+end count27530
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026360Log\CharPlaces.txt
+start count27530
+end count27743
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026361Log\CharPlaces.txt
+start count27743
+end count27955
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026362Log\CharPlaces.txt
+start count27955
+end count28163
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026363Log\CharPlaces.txt
+start count28163
+end count28375
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026364Log\CharPlaces.txt
+start count28375
+end count28581
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026365Log\CharPlaces.txt
+start count28581
+end count28792
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026366Log\CharPlaces.txt
+start count28792
+end count28999
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026367Log\CharPlaces.txt
+start count28999
+end count29206
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026368Log\CharPlaces.txt
+start count29206
+end count29410
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026369Log\CharPlaces.txt
+start count29410
+end count29615
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026370Log\CharPlaces.txt
+start count29615
+end count29828
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026375Log\CharPlaces.txt
+start count29828
+end count30035
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026376Log\CharPlaces.txt
+start count30035
+end count30221
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026377Log\CharPlaces.txt
+start count30221
+end count30416
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026379Log\CharPlaces.txt
+start count30416
+end count30623
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026380Log\CharPlaces.txt
+start count30623
+end count30830
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026383Log\CharPlaces.txt
+start count30830
+end count31039
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026384Log\CharPlaces.txt
+start count31039
+end count31243
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026387Log\CharPlaces.txt
+start count31243
+end count31442
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026388Log\CharPlaces.txt
+start count31442
+end count31650
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026391Log\CharPlaces.txt
+start count31650
+end count31844
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026395Log\CharPlaces.txt
+start count31844
+end count32044
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026399Log\CharPlaces.txt
+start count32044
+end count32255
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026405Log\CharPlaces.txt
+start count32255
+end count32461
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026406Log\CharPlaces.txt
+start count32461
+end count32669
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026412Log\CharPlaces.txt
+start count32669
+end count32882
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026414Log\CharPlaces.txt
+start count32882
+end count33088
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026416Log\CharPlaces.txt
+start count33088
+end count33204
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026418Log\CharPlaces.txt
+start count33204
+end count33415
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026420Log\CharPlaces.txt
+start count33415
+end count33622
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026422Log\CharPlaces.txt
+start count33622
+end count33831
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026426Log\CharPlaces.txt
+start count33831
+end count34040
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026428Log\CharPlaces.txt
+start count34040
+end count34251
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026430Log\CharPlaces.txt
+start count34251
+end count34456
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026432Log\CharPlaces.txt
+start count34456
+end count34656
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026434Log\CharPlaces.txt
+start count34656
+end count34856
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026436Log\CharPlaces.txt
+start count34856
+end count35058
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026438Log\CharPlaces.txt
+start count35058
+end count35260
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026442Log\CharPlaces.txt
+start count35260
+end count35474
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026444Log\CharPlaces.txt
+start count35474
+end count35675
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026448Log\CharPlaces.txt
+start count35675
+end count35889
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026450Log\CharPlaces.txt
+start count35889
+end count36106
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026452Log\CharPlaces.txt
+start count36106
+end count36315
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026454Log\CharPlaces.txt
+start count36315
+end count36530
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026462Log\CharPlaces.txt
+start count36530
+end count36723
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026466Log\CharPlaces.txt
+start count36723
+end count36929
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026468Log\CharPlaces.txt
+start count36929
+end count37135
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026470Log\CharPlaces.txt
+start count37135
+end count37336
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026472Log\CharPlaces.txt
+start count37336
+end count37562
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026476Log\CharPlaces.txt
+start count37562
+end count37766
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026478Log\CharPlaces.txt
+start count37766
+end count37964
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026480Log\CharPlaces.txt
+start count37964
+end count38168
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026482Log\CharPlaces.txt
+start count38168
+end count38363
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026488Log\CharPlaces.txt
+start count38363
+end count38572
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026490Log\CharPlaces.txt
+start count38572
+end count38774
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026492Log\CharPlaces.txt
+start count38774
+end count38972
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026500Log\CharPlaces.txt
+start count38972
+end count39181
+C:\Users\e.yilmaz\Source\training ocr\USAPP0100A\USAPP0100A-S-0026502Log\CharPlaces.txt
+start count39181
+end count39387

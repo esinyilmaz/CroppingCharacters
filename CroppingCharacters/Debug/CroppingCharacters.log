@@ -1,9 +1,8 @@
-﻿Build started 25/01/2016 15:23:29.
+﻿Build started 09/02/2016 14:12:19.
      1>Project "C:\Users\e.yilmaz\Source\Repos\CroppingCharacters\CroppingCharacters\CroppingCharacters.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         CroppingCharacters.vcxproj -> C:\Users\e.yilmaz\Source\Repos\CroppingCharacters\Debug\CroppingCharacters.exe
-     1>Done Building Project "C:\Users\e.yilmaz\Source\Repos\CroppingCharacters\CroppingCharacters\CroppingCharacters.vcxproj" (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(214,5): error MSB4175: The task factory "CodeTaskFactory" could not be loaded from the assembly "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Build.Tasks.v12.0.dll". The process cannot access the file 'C:\Users\e.yilmaz\AppData\Local\Temp\zenigiaf.dll' because it is being used by another process.
+     1>Done Building Project "C:\Users\e.yilmaz\Source\Repos\CroppingCharacters\CroppingCharacters\CroppingCharacters.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.12
+Time Elapsed 00:00:01.39
